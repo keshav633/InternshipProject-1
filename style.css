@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #707071;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     
+}
+
+h1{
+   color:#d3d3d3;
+} 
+
+.navbar a{
+    text-decoration: none;
+    color:#d3d3d3;
+}
+
+/* .a b{
+    color:#d3d3d3;
+} */
+
+.hero-section{
+    background-image: url("kkk.jpg");
+    background-size: cover;
+    height: 601px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .n{
+    background-color:#ffffff80;
+    height: 140px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  }
+  p{
+    font-size: 45px;
+    margin-bottom: 17px;
+    color: #303132;
+     
+  }
+  .n b{
+    font-family:'Times New Roman', Times, serif; 
+  }
+  
+.m{
+    padding: 0px 35px;
+    background-color: #303132;
+    font-size: 22px;
+    margin-bottom: 15px;  
+    margin-left: 60px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.m:hover{
+    background-color: #ffffff;
+    border: #303132;
+    color: #303132;
+}
+
+.k{
+    width: 100vw;
+    height: 55px;
+    background-color: #d3d3d399;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.h{
+   font-size: 15px;
+   color: #303132;
+    
+}
+
+.j{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+ .y{
+    font-family:'Times New Roman', Times, serif; 
+    color: #303132;
+} 
+
+.q{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    /* background-color: aqua; */
+}
+.box{
+    height: 353px;
+    width: 299px;
+    background-color: aqua;
+    border-width: 25px;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+.box:hover{
+    border-color: #303132;
+    border: 2px solid;
+    
+}
+.s{
+    margin-top: 25px;
+}
+.z{
+    width: 299px;
+    height: 57px;
+    background-color: #303132;
+    
+}
+
+ .z p{
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 296px;
+    
+} 
+
+.i{
+     margin-top: 16px;
+     font-family:'Times New Roman', serif;
+      
+}
+
+.v{
+    background-image: url("mmm.jpg");
+}
+.e{
+    background-image: url("jj.jpeg");
+}
+.f{
+    background-image: url("a.jpg");
+     
+}
+
+.w{
+    width: 299px;
+    height: 57px;
+    background-color: #303132;
+    
+}
+
+ .w p{
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 296px;
+    
+} 
+
+.d{
+     margin-top: 16px;
+     font-family:'Times New Roman', serif;
+      
+}
+
+.hj{
+    width: 100vw;
+    height: 150px;
+    background-color: #303132;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ 
+   ul{
+    margin-top: 20px;
+   }
+  
+  
+   ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+   }
+  
+   ul p{
+    font-weight: 700;
+    color: #d3d3d3;
+    font-size: 13px;
+    font-family: 'raleway',sans-serif;
+   }
+
+   ul p1{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+   }
+  
+ 
+   .dj{
+    background-color: #303132;
+    color: white;
+    height: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  
+  .copyright{
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+ 
+  
+
+  @media (max-width: 945px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        height: auto;
+    }
+
+    .navbar a {
+        padding: 0.5rem; /* Adjust padding for touch targets */
+    }
+
+    .hero-section {
+        height: 400px; /* Example adjustment for smaller screens */
+    }
+
+    .n {
+        width: 100%; /* Take full width on smaller screens */
+    }
+
+    .m {
+        margin-left: 0; /* Center button on smaller screens */
+    }
+
+    .q {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid columns for smaller screens */
+    }
+    .box{
+        background-size: cover;
+         
+
+    }
+    .q{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-size: contain;
+        flex-wrap: wrap;
+    }
+
+    .hj{
+        width: 100vw;
+        height: 150px;
+        background-color: #303132;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        margin-top: 798px;
+    }
+}
+     
